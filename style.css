@@ -2,6 +2,10 @@ h1{
     text-align: center;
 }
 
+button{
+    height: 100%;
+}
+
 button:focus{
     outline: none;
 }
@@ -40,4 +44,11 @@ button:focus{
     border-radius: 4px;
     box-shadow: 2px 4px 10px #d5d5d5;
     cursor: pointer;
+  }
+
+  .buts{
+    width: 500px;
+    margin-top: 10px;
+    height: 35px;
+    display: flex;
   }
